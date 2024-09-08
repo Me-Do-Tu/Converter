@@ -1,0 +1,76 @@
+@import url('https://fonts.googleapis.com/css2?family=Nerko+One&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+h1{
+    font-size: 60px;
+}
+span {
+    font-size: 50px;
+}
+body{
+    background-color: gray;
+    font-family: "Nerko One", cursive;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+.converter-body{
+    border: 1px solid red;
+    background-color: rgba(255,192,192,255);
+    width: 800px;
+}
+input {
+    width: 300px;
+    height: 50px;
+    border: none;
+    border-radius: 25px;
+    text-align: center;
+    font-size: 30px;
+    font-family: "Nerko One", cursive;
+    color: rgba(255,128,128,255);
+    margin-top: 30px;
+    margin-bottom: 30px;
+}
+select {
+    width: 300px;
+    height: 50px;
+    border: none;
+    border-radius: 25px;
+    text-align: center;
+    font-size: 30px;
+    font-family: "Nerko One", cursive;
+    margin-bottom: 30px;
+}
+a {
+    font-family: "Nerko One", cursive;
+    background-color: #EA4C89;
+    border-radius: 8px;
+    border-style: none;
+    box-sizing: border-box;
+    color: #FFFFFF;
+    cursor: pointer;
+    display: inline-block;
+    font-size: 30px;
+    font-weight: 500;
+    width: 310px;
+    height: 50px;
+    line-height: 20px;
+    margin-top: 30px;
+    margin-bottom: 30px;
+    padding: 10px 16px;
+    position: relative;
+    text-align: center;
+    text-decoration: none;
+    transition: color 100ms;
+    vertical-align: baseline;
+}
+
+a:hover,
+a:focus {
+    background-color: #F082AC;
+}
